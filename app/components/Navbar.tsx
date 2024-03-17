@@ -3,6 +3,7 @@ import { navLinks } from "../../constants";
 import Image from "next/image";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
+import { Button } from "./index";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,9 +25,12 @@ const Navbar = () => {
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
+
         ))}
       </ul>
-
+      <div className="sm:flex hidden">
+      <Button name="Let's Talk"/>
+      </div>
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <button
           className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 
@@ -80,6 +84,8 @@ const Navbar = () => {
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
+
+              
             ))}
           </ul>
         </div>
