@@ -6,6 +6,7 @@ import Partners from './Partners';
 import Project from './Project';
 import Meetings from './Meetings';
 import Collaboration from './Collaboration';
+import Testimonials from './Testimonials';
 
 export {
     Navbar,
@@ -16,4 +17,5 @@ export {
     Project,
     Meetings,
     Collaboration,
+    Testimonials,
 };

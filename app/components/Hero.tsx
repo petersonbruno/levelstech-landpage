@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Button } from ".";
 
 const Hero = () => (
-  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} bg-hero`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px16 px-6`}>
       <div
         className=""
