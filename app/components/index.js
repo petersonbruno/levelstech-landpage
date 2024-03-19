@@ -4,6 +4,8 @@ import About from './About';
 import Button from './Button';
 import Partners from './Partners';
 import Project from './Project';
+import Meetings from './Meetings';
+import Collaboration from './Collaboration';
 
 export {
     Navbar,
@@ -12,4 +14,6 @@ export {
     Button,
     Partners,
     Project,
+    Meetings,
+    Collaboration,
 };

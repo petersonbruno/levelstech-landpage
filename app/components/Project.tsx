@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Project = () =>  (
-    <div>Project</div>
+    <section id='project' className="">
+    </section>
   );
 
 export default Project

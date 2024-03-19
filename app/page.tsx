@@ -1,5 +1,5 @@
 import style from "./style";
-import {Navbar, Hero, About, Partners, Project} from "./components";
+import {Navbar, Hero, About, Partners, Project, Meetings, Collaboration} from "./components";
 
 const page = () =>  (
     <div className="bg-primary text-black overflow-hidden">
@@ -12,26 +12,16 @@ const page = () =>  (
       <div className={`bg-hero ${style.flexStart}`}>
         <div className={`${style.boxWidth}`}>
           <Hero/>
-        </div>
-      </div>
-
-      <div className={`bg-primary ${style.flexStart}`}>
-        <div className={`${style.boxWidth}`}>
           <About/>
-        </div>
-      </div>
-
-      <div className={`bg-primary ${style.flexStart}`}>
-        <div className={`${style.boxWidth}`}>
           <Partners/>
+          <Project/>
+          <Meetings/>
+          <Collaboration/>
+
         </div>
       </div>
 
-      <div className={`bg-primary ${style.flexStart}`}>
-        <div className={`${style.boxWidth}`}>
-          <Project/>
-        </div>
-      </div>
+      
 
     </div>
   );

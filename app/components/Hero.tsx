@@ -8,20 +8,21 @@ const Hero = () => (
       <div
         className=""
       >
-        <p className={`${styles.paragraph} ml-2 sm:pl-32`}>
-          <span className="text-black pl-[70px]">
+        {/* <p className={`${styles.paragraph} ml-32 xs:ml-2`}>
+          <span className="text-black pl-32 sm:pl-6">
             {" "}
             We are Levels tech digital agency
           </span>
-        </p>
+        </p> */}
       </div>
-      <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="font-semibold ss:text-[50px] ss:leading-[100px] text-blue-900 text-[30px] lg:pl-[20%]
+      <div className="flex flex-row justify-start items-center w-full">
+        <h1 className={`${styles.flexCenter} ${styles.heading2}font-semibold ss:text-[50px] ss:leading-[100px] text-blue-900 text-[30px] lg:pl-[20%]
         sm:pl-[10px]
-        ">
-          We get you when
-          <br />
+        leading-[30px]`}>
+          We get you when {" "}
+          <br className="sm:block hidden"/>
           success needed
+         
         </h1>
       </div>
       <p className={`${styles.paragraph} ml-2 lg:pl-[20%]`}>

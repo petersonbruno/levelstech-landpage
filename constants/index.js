@@ -12,3 +12,10 @@ export const navLinks =[
         title: "Contact"
     }
 ]
+
+export const projects = [
+    {
+        id:1,
+        title:"movie-app"
+    }
+]
