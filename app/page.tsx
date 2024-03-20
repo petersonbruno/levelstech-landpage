@@ -1,5 +1,5 @@
 import style from "./style";
-import {Navbar, Hero, About, Partners, Project, Meetings, Collaboration, Testimonials} from "./components";
+import {Navbar, Hero, About, Partners, Project, Meetings, Collaboration, Testimonials, CTA, Footer} from "./components";
 
 const page = () =>  (
     <div className="bg-primary text-black overflow-hidden">
@@ -18,6 +18,8 @@ const page = () =>  (
           <Meetings/>
           <Collaboration/>
           <Testimonials/>
+          <CTA/>
+          <Footer/>
 
         </div>
       </div>

@@ -7,6 +7,8 @@ import Project from './Project';
 import Meetings from './Meetings';
 import Collaboration from './Collaboration';
 import Testimonials from './Testimonials';
+import CTA from './CTA';
+import Footer from './Footer';
 
 export {
     Navbar,
@@ -18,4 +20,6 @@ export {
     Meetings,
     Collaboration,
     Testimonials,
+    CTA,
+    Footer,
 };
