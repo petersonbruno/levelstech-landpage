@@ -11,12 +11,15 @@ const Collaboration = () => (
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Name (Title): SNOWFALL - Complete Season 4 S04 (2021 Series) - 720p AMZN
-        Web-DL x264. Category Type: TV Shows. Length (Duration): 40-50+ Minutes
-        per Episode Year(s): 2021. Starring: Damson Idris, Carter Hudson, Sergio
-        Peris-Mencheta, Amin Joseph, Alon Abutbul, Michael Hyatt, Angela Lewis,
-        Isaiah John, Kevin Carroll, Melvin Gregg, DeRay Davis, De'Aundre Bonds,
-        Suzy Nakamura, etc... Genre(s): Crime, Drama, Historical.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in
       </p>
     </div>
     <div className={`${layout.sectionImg}`}>
