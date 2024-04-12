@@ -139,20 +139,19 @@ const Footer = () => (
         </div>
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
-          <div>{footerLinks.map((footerLinks) => (
-            <p key={footerLinks.key} className="font-medium text-gray-900">{footerLinks.title}</p>
-            ))}
+          <div>
+            <p  className="font-medium text-gray-900"></p>
+            
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
                   className="text-gray-700 transition hover:opacity-75"
                 >
-                  {" "}
-                  1on1 Coaching{" "}
+                 
                 </a>
               </li>
-
+           
               <li>
                 <a
                   href="#"
