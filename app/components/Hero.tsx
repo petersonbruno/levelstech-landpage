@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section className="bg-pink-200 py-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+        <div className="w-full md:w-1/2 text-left mb-10 md:mb-0 px-4 md:px-0">
           <h1 className="text-4xl font-bold mb-4">
             Levels Pro Tech
             <div className="text-2xl text-gray-700">
@@ -39,7 +39,7 @@ const Hero = () => {
             Get A Quote
           </button>
         </div>
-        <div className="md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center px-4 md:px-0">
           <Image src="/assets/hero.svg" width={500} height={500} alt="Hero Image" className="max-w-full" />
         </div>
       </div>
