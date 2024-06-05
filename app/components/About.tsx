@@ -1,44 +1,26 @@
 import { Button } from ".";
-import styles,{layout} from "../style";
+import styles from "../style";
 import Image from "next/image";
 
 const About = () => (
-  <section
-    id="about"
-    className={`flex md:flex-row flex-col ${styles.paddingY} flex-row-reverse bg-primary`}
-  >
-    <div className={`${layout.sectionReverse}`}>
-    <div className="h-[100%] w-[100%]">
-      <Image
-        src="/assets/about.svg"
-        alt="img"
-        className={`${styles.flexCenter}`}
-        width={500}
-        height={500}
-      />
-    </div>
-    <div
-      className="flex flex-row items-center py-[6px] px-0 bg-slate-100 rounded-[10px] mb-2 
-            "
-    >
-      <div className={`${styles.paragraph} ml-0 sm:pl-32`}>
-        <div className={`${styles.padding}`}>
-          <h1 className="text-xl pb-5 text-blue-800">
-            {" "}
-            About Levels Tech company
-          </h1>
-          <span className="text-black">
-            Why do we use it? It is a long established fact that a reader will
-            be distracted by the readable content of a page when looking at its
-            layout. The point of using Lorem Ipsum is that it has a more-or-less
-            normal
-          </span>
-          <div className="py-5">
-            <Button name="Read more" />
-          </div>
-        </div>
+
+  <section className="py-20 bg-white">
+    <div className="container mx-auto flex flex-col md:flex-row flex-col-reverse items-center bg-white p-6 rounded-lg ">
+      <div className="md:w-1/2 w-full mb-10 md:mb-0  p-4 rounded-lg">
+        <img src="/assets/about.svg" alt="About Image" className="max-w-full h-auto" />
       </div>
-    </div>
+      <div className="md:w-1/2 w-full text-center md:text-left px-4 bg-gray-100">
+        <h2 className="text-3xl font-bold mb-4">About Us</h2>
+        <p className="text-lg mb-4">
+          Crafting Tomorrow's Solutions Today: We're a dynamic software development company committed to innovation, excellence, and client satisfaction. With a passion for cutting-edge technology and a dedication to turning ideas into reality, we specialize in creating tailored software solutions that empower businesses to thrive in the digital age. Our team of skilled developers, designers, and strategists work collaboratively to deliver customized, scalable, and robust software products that meet the unique needs of our clients. From concept to deployment, we're your trusted partner on the journey to success in the ever-evolving landscape of technology.
+        </p>
+        <p className="text-lg mb-4">
+          With years of experience in the industry, we offer a range of services designed to elevate your digital presence and drive your business forward.
+        </p>
+        <p className="text-lg mb-4">
+          Our mission is to provide innovative solutions that meet the unique needs of our clients, ensuring their growth and success in the digital world.
+        </p>
+      </div>
     </div>
   </section>
 );

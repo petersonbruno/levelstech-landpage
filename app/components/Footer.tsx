@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { footerLinks } from "@/constants";
 
 const Footer = () => (
   <footer className="bg-white">
@@ -9,14 +8,13 @@ const Footer = () => (
         <div>
           <div className="text-teal-600">
             <Image src="/assets/logo.png" alt="logo"
-            height={100}
-            width={100}
+              height={100}
+              width={100}
             />
           </div>
 
           <p className="mt-4 max-w-xs text-gray-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
-            cupiditate quae nam molestias.
+            We provide custom system, web, and mobile app development, delivering innovative and scalable solutions. Partner with us for seamless, high-quality digital transformation.
           </p>
 
           <ul className="mt-8 flex gap-6">
@@ -140,18 +138,18 @@ const Footer = () => (
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
           <div>
-            <p  className="font-medium text-gray-900"></p>
-            
+            <p className="font-medium text-gray-900"></p>
+
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
                   className="text-gray-700 transition hover:opacity-75"
                 >
-                 
+
                 </a>
               </li>
-           
+
               <li>
                 <a
                   href="#"
@@ -320,5 +318,4 @@ const Footer = () => (
     </div>
   </footer>
 );
-
 export default Footer;

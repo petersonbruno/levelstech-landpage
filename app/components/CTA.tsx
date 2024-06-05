@@ -58,8 +58,8 @@ const CTA = () => (
         src="/assets/send-email.svg"
         alt="img"
         className=""
-        width={500}
-        height={500}
+        width={300}
+        height={300}
       />
     </div>
   </section>

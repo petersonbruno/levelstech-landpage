@@ -5,21 +5,16 @@ const Collaboration = () => (
   <section id="meeting" className={`${layout.section} bg-slate-200 `}>
     <div className={`${layout.sectionInfo} ${styles.paddingX}`}>
       <span className=" text-blue-900">Collaboration</span>
-      <h2 className={styles.heading2}>
-        Stay up to date with new <br className="sm:block hidden" />
-        business idea
-      </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature, discovered the
-        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-        Cicero, written in
+        We collaborate through a
+        comprehensive process starting with an initial
+        consultation to understand your needs. We then move to
+        requirement analysis, design, and planning, followed by
+        iterative development using agile methodologies. After rigorous
+        testing, we deploy and integrate the solution, providing ongoing
+        support and maintenance to ensure continuous improvement and optimal
+        performance.
       </p>
     </div>
     <div className={`${layout.sectionImg}`}>
