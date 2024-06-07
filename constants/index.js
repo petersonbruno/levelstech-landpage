@@ -40,6 +40,6 @@ export const projects = [
       title: 'ADMIN DASHBOARD',
       category: 'Sytem Development',
       description: 'An admin dashboard offers user and content management, analytics, system settings, notifications, support, and financial tracking with an intuitive and secure interface.',
-      link: '#',
+      link: 'https://admin-dashboard-xi-liard.vercel.app/dashboard',
     },
   ];
