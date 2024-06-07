@@ -15,10 +15,10 @@ export const navLinks =[
 
 export const projects = [
     {
-      image: '/assets/about.svg',
-      title: 'Time Tracking App',
-      category: 'View Project',
-      description: 'Manage your time efficiently with our Time Tracking App.',
+      image: '/assets/smartschool.jpg',
+      title: 'SMART SCHOOL App',
+      category: 'Mobile App development',
+      description: 'Arrange Result, Time table, Task and Download Scheam of work in App',
       link: '#',
     },
     {

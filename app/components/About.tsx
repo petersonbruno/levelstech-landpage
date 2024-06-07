@@ -4,7 +4,7 @@ import styles from "../style";
 import Image from "next/image";
 
 const About = () => (
-  <section className="py-20 bg-white">
+  <section id= "about" className="py-20 bg-white">
     <div className="container mx-auto flex flex-col md:flex-row flex-col-reverse items-center bg-white p-6 rounded-lg">
       <div className="md:w-1/2 w-full mb-10 md:mb-0 p-4 rounded-lg">
         <img src="/assets/about.svg" alt="About Image" className="max-w-full h-auto" />

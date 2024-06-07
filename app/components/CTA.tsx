@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const CTA = () => (
   <section
-    id="meeting"
-    className={`${layout.section} ${styles.flexCenter} bg-blue-700 text-white p-30`}
+    id="contact"
+    className={`${layout.section} ${styles.flexCenter} bg-blue-700 text-white p-12`}
   >
     <div className={`${layout.sectionInfo} ${styles.paddingX}`}>
       <span className=" ">Subscribe</span>
