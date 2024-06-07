@@ -1,3 +1,53 @@
+# Node.js
 node_modules
-node_modules
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
 .next
+out
+build
+
+# Static directories
+/static
+
+# Testing
+coverage
+.nyc_output
+
+# Serverless directories
+.vercel
+now.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler
+.cache
+.parcel-cache
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IntelliJ IDEA
+.idea
+*.iml
+*.iws
